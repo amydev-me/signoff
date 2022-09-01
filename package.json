@@ -1,0 +1,25 @@
+{
+  "name": "distributed-controller-worker",
+  "version": "0.1.0",
+  "description": "a simple controller-worker distributed computation example",
+  "author": "Jacek Kopecky <jacek@jacek.cz>",
+  "license": "ISC",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "dependencies": {
+    "@google-cloud/logging": "^8.0.9",
+    "address": "^1.1.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-portsoc": "^0.6.0"
+  }
+}
