@@ -97,7 +97,7 @@ function finished() {
   process.exit(0);
 }
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 
 const server = app.listen(port, () => {
   console.log(`Controller listening on port ${port}!`);
